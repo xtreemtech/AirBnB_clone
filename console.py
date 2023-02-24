@@ -7,7 +7,6 @@ from models import storage
 import re
 import json
 
-
 class HBNBCommand(cmd.Cmd):
 
     """Class for the command interpreter."""
@@ -217,3 +216,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
